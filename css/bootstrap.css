@@ -3109,7 +3109,7 @@ input[type=search] {
 input[type=checkbox],
 input[type=radio] {
     margin: 4px 0 0;
-    margin-top: 1px\9;
+    margin-top: 1px;
     line-height: normal
 }
 
@@ -3257,7 +3257,7 @@ input[type=search] {
 .radio input[type=radio],
 .radio-inline input[type=radio] {
     position: absolute;
-    margin-top: 4px\9;
+    margin-top: 4px;
     margin-left: -20px
 }
 
@@ -4293,7 +4293,7 @@ tbody.collapse.in {
     margin-left: 2px;
     vertical-align: middle;
     border-top: 4px dashed;
-    border-top: 4px solid\9;
+    border-top: 4px solid;
     border-right: 4px solid transparent;
     border-left: 4px solid transparent
 }
@@ -4380,7 +4380,7 @@ tbody.collapse.in {
     cursor: not-allowed;
     background-color: transparent;
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false)
+    /* filter: progid:DXImageTransform.Microsoft.gradient(enabled=false) */
 }
 
 .open>.dropdown-menu {
@@ -4429,7 +4429,7 @@ tbody.collapse.in {
     content: "";
     border-top: 0;
     border-bottom: 4px dashed;
-    border-bottom: 4px solid\9
+    border-bottom: 4px solid;
 }
 
 .dropup .dropdown-menu,
@@ -5131,7 +5131,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     max-height: 340px
 }
 
-@media (max-device-width:480px) and (orientation:landscape) {
+@media (max-width:480px) and (orientation:landscape) {
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse {
         max-height: 200px
@@ -7802,7 +7802,9 @@ button.close {
 .center-block {
     display: block;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
+    height: 115px;
+    
 }
 
 .pull-right {
